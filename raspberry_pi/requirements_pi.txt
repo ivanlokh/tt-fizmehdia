@@ -1,0 +1,29 @@
+# TT-FizMehdia Raspberry Pi Requirements
+# Встановлення: pip install -r requirements_pi.txt
+
+# Основні залежності
+flask==3.0.0
+flask-cors==4.0.0
+
+# GPIO для Raspberry Pi
+RPi.GPIO==0.7.1
+
+# Камера Raspberry Pi
+picamera==1.13
+
+# Звук
+pygame==2.5.2
+
+# LED стрічки (NeoPixel)
+adafruit-circuitpython-neopixel==6.4.2
+
+# MQTT для мережевого керування
+paho-mqtt==1.6.1
+
+# Додаткові утиліти
+requests==2.31.0
+python-dotenv==1.0.0
+Pillow==10.1.0
+
+# Для розробки
+pytest==7.4.3

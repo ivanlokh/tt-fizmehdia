@@ -73,6 +73,11 @@ class Config:
         'motor',
         'display',
         'camera',
+        'gpio',
+        'neopixel',
+        'servo',
+        'buzzer',
+        'pir_sensor',
         'custom'
     ]
     
@@ -97,6 +102,16 @@ class Config:
         'buzzer_beep',
         'display_message',
         'gift_effect',
+        # Raspberry Pi специфічні дії
+        'gpio_control',
+        'neopixel_effect',
+        'camera_capture',
+        'sound_play',
+        'pir_detect',
+        'pulse_effect',
+        'twinkle_effect',
+        'chase_effect',
+        'unicorn_effect',
         'custom'
     ]
     
