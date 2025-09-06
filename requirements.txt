@@ -1,0 +1,35 @@
+# Основні залежності
+flask==3.0.0
+flask-cors==4.0.0
+flask-socketio==5.3.6
+pyserial==3.5
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Для роботи з JSON та даними
+pydantic==2.5.0
+python-json-logger==2.0.7
+
+# Для веб-скрапінгу та автоматизації
+selenium==4.15.2
+beautifulsoup4==4.12.2
+playwright==1.40.0
+
+# Для роботи з Arduino та IoT
+paho-mqtt==1.6.1
+opencv-python==4.8.1.78
+pillow==10.1.0
+
+# Для аналітики та обробки даних
+pandas==2.1.4
+numpy==1.25.2
+matplotlib==3.8.2
+
+# Для безпеки
+cryptography==41.0.8
+pyjwt==2.8.0
+
+# Для розробки
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
